@@ -25,6 +25,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")  # change as needed
 MAX_TRANSACTIONS_TO_SEND = 30  # limit to keep prompt size manageable
 
+#Checking for opernapi key
 if not OPENAI_API_KEY:
     st.warning("Set OPENAI_API_KEY environment variable before running the app.")
 else:
