@@ -1,0 +1,44 @@
+[
+  {
+    "Transaction_ID": "TXN1001",
+    "timestamp": "2025-09-08T12:00:00",
+    "Transaction_Amount": 7500.0,
+    "currency": "USD",
+    "Transaction_Type": "RTP",
+    "Customer_ID": "CUST001",
+    "Device_Type": "Mobile",
+    "originAccount": {
+      "Sender_Account": "ACC1001",
+      "origin_routing_number": 123456,
+      "Customer_ID": "CUST001",
+      "origin_location": "New York",
+      "deviceId": "DEV1001"
+    },
+    "destinationAccount": {
+      "Receiver_Account": "ACC2001",
+      "destination_routing_number": 654321,
+      "destination_location": "Los Angeles"
+    }
+  },
+  {
+    "Transaction_ID": "TXN1002",
+    "timestamp": "2025-09-08T12:05:00",
+    "Transaction_Amount": 1200.0,
+    "currency": "USD",
+    "Transaction_Type": "Member-to-Member Transfer",
+    "Customer_ID": "CUST002",
+    "Device_Type": "Web",
+    "originAccount": {
+      "Sender_Account": "ACC1002",
+      "origin_routing_number": 123457,
+      "Customer_ID": "CUST002",
+      "origin_location": "Chicago",
+      "deviceId": "DEV1002"
+    },
+    "destinationAccount": {
+      "Receiver_Account": "ACC2002",
+      "destination_routing_number": 654322,
+      "destination_location": "Houston"
+    }
+  }
+]
